@@ -22,7 +22,7 @@ To get started with the Cipher Vault, follow these steps:
 
 1. Clone the repository
 
-   git clone https://github.com/username/cipher-vault.git
+   git clone https://github.com/harshk49/Cipher-Vault
 
 2. Navigate to the project directory
 
