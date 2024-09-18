@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cipher Vault</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="script.js"></script>
+
+</head>
+<body>
+
+	<header>
+		<div class="head">
+			Cipher Vault - Text Cipher Website  
+
+		</div>
+	</header>
+	<div class="container">
+		<h1>Cipher Vault</h1>
+		<div class="input-field">
+			<label for="original">Original Message:</label>
+			<input type="text" id="original" name="original" value="Hello, World!">
+		</div>
+		<div class="input-field">
+			<label for="cipher">Cipher:</label>
+			<select id="cipher" name="cipher">
+				<option value="caesar">Caesar Cipher</option>
+				<option value="vigenere">Vigenere Cipher</option>
+				<option value="atbash">Atbash Cipher</option>
+			</select>
+		</div>
+		<div class="input-field">
+			<label for="shift">Shift:</label>
+			<input type="number" id="shift" name="shift" min="1" max="25" value="1">
+		</div>
+		
+		<div class="input-field">
+			<button onclick="encryptMessage()">Encrypt</button>
+			<button onclick="decryptMessage()">Decrypt</button>
+			<button onclick="compressMessage()">Compress</button>
+			<button onclick="decompressMessage()">Decompress</button>
+		</div>
+        <div class="input-field">
+			<label for="encrypted">Encrypted Message:</label>
+			<input type="text" id="encrypted" name="encrypted" value="">
+		</div>
+		<div class="input-field">
+			<label for="compressed">Compressed Message:</label>
+			<input type="text" id="compressed" name="compressed" value="">
+		</div>
+		<div class="input-field">
+			<label for="decompressed">Decompressed Message:</label>
+			<input type="text" id="decompressed" name="decompressed" value="">
+		</div>
+	</div>
+
+	<footer>
+		<div class="foot-panel1">
+            Made By - Harsh kardile, Harsh Patki, Vidushi Munshi
+        </div>
+
+	</footer>
+    
+	<script src="script.js"></script>
+</body>
+</html>

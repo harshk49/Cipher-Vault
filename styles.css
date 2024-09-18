@@ -1,0 +1,76 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: darkgray;
+	background-image: url(Screenshot\ 2024-04-26\ 203610.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	width: 500px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: rgb(0, 55, 89);
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.input-field {
+	margin-bottom: 20px;
+}
+
+.input-field label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.input-field input,
+.input-field select {
+	width: 70%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	font-size: 16px;
+}
+
+.input-field input:focus,
+.input-field select:focus {
+	outline: none;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+.input-field button {
+	padding: 10px;
+	border-radius: 5px;
+	border: none
+    color(srgb red green blue)}
+
+.foot-panel1{
+	background-color: #37475a;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+	font-style: italic;
+}
+
+.head{
+	background-color: #37475a;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 0.85rem;
+	font-style: italic;
+	font-size: large;
+}
